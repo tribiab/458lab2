@@ -33,7 +33,7 @@ However, we can see a slight increase in tweets on the West coast, especially in
 ![Word Cloud 9:45](/images/wordart945pm.png)
 In this word cloud, which was created from an aggregation of tweets from 9:45 PM, we can assess the content of those tweets by visualizing it in different sizes. Similar to the first word cloud, the size of the keyword and it's opacity signifies it's frequency in the data. A difference that I can observe between the two word clouds is the presence of the word: "Drunk" in the 9 PM word cloud. My hypothesis is that people are more likely getting drunk at 9PM than 2PM, thus tweets with the keyword "drunk" didn't appear until 9PM. 
 
-#Conclusion 
+# Conclusion 
 In this lab, I explored twitter data and tried to represent the literal time difference from the West coast and East coast through observing tweets referencing partying and drinking. 
 
 I had the hypothesis that there would be less tweets about drinking and partying at 2:00 PM PST than 9:00 PM. I utilized a StreamListener object and Twitter API keys to webscrape live twitter data for 10 minute intervals. With this data in CSV format, I visualized the tweets based on their longitude and latitude found from the Twitter metadata.  
